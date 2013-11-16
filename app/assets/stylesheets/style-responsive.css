@@ -17,12 +17,16 @@
 @media (max-width: 979px) {
     .steps{ padding: 70px 0px 0px 0px !important; } 
     .rule{display: none !important;}
-    .icon-caracteristicas {
-    width: 180px !important;
-    margin-left: 3% !important;
-    margin-right: 3% !important;
-    margin-bottom: 40px !important;
+    .icon-caracteristicas{
+        width: 180px !important;
+        margin-left: 3% !important;
+        margin-right: 3% !important;
+        margin-bottom: 40px !important;
     }
+    .icon-caracteristicas p{color: #111 !important;}
+    #portfolio #filters{height: auto !important;}
+    #portfolio #filters li{display: block !important; margin-bottom: 6px !important; }
+    .separator{display: none;}
 }
 
 @media (min-width: 768px) and (max-width: 1200px) {
@@ -70,7 +74,7 @@
       font-size: 18px !important;
     }
     #pricing .price-plan .price .inside .super {
-      font-size: 13px !important;
+      font-size: 12px !important;
       top: -23px !important;
     }
     #pricing .price-plan .price .inside .amt {
