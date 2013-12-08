@@ -69,6 +69,18 @@ html,body {
     background:rgba(46,46,46,0.35);
 }
 
+.brand #logokhan{ margin: 0 20px;}
+
+.brand h1{
+    width: 150px;
+    height: 40px;
+    font-size: 0px;
+    line-height: 0;
+    background:url("logo.png");
+    background-size: 100%;
+    color: transparent;
+}
+
 .navbar .navbar-inner.sticky {
     background:rgba(0,0,0,0.7);
     border-bottom:none;
@@ -1836,12 +1848,12 @@ a.flink:hover {
 .iconos-contacto i{
     font-size:40px;
     color:#8AB833;
-    transition:all 0.35s ease-in;
+    transition:all 0.20s ease-in;
     text-shadow: 0px 0px 5px #222;
 }
 
 .iconos-contacto a:hover i{
-    color: #fff;
+    color: #aaa;
 }
 
 
